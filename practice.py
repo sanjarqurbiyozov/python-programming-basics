@@ -1,3 +1,4 @@
+import math
 # # 1-mashq
 # # cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']
 # # for car in cars:
@@ -40,3 +41,11 @@
 #   print("Manfiy son!")
 # else:
 #   print("Siz 0 sonini kiritdingiz!")
+
+
+# 6-mashq
+num = float(input("Son kriting>>>"))
+if num >= 0:
+  print(math.sqrt(num))
+else:
+  print("Musbat son krting! ")
