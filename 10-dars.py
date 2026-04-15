@@ -14,3 +14,21 @@ if name.lower() != 'ali':            # Agar ism ali ga teng bolmasa ...
   print(f"Uzr, {name.title()} biz Alini kutyabmiz.") # quyidagi habar chiqadi
 else:
   print("Salom, Ali!")
+
+
+
+# Sonlarni solishtrish  Comparing numbers
+# kichik: a<b
+# kichik yoki teng: a<=b
+# katta: a>b
+# katta yoki teng:a>=b
+
+javob = float(input("12x6 nechiga teng?>>>"))
+if javob != 72:
+  print("Javob xato!")
+
+yosh = int(input("Yoshingiz nechida?>>>"))
+if yosh >= 18:
+  print('Xush kelibsiz!')
+else:
+  print('Kirish mumkin emas!')
